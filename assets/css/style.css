@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Hammersmith One', sans-serif;
+
+
+}
+
+.cell{
+	border: 1px solid black;
+}
+
+
+
+.webdeveloper{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+
+
+.me{
+  height: 180px;
+  width: 180px;
+}
+
+.centercontent{
+  text-align: center;
+}
+
+.givecontentheight{
+  height: 300px;
+}
+
+
+.blacktext{
+  color: black;
+}
+
+.whitetext{
+  color: white;
+}
+
+
+
+.skills{
+  transform: rotate(45deg);
+}
+
+
+
+
+
+.skillsize{
+  height: 120px;
+  width: 110px;
+  margin-left: 35px;
+
+}
+
+.laravel{
+   height: 110px;
+  width: 130px;
+  margin-left: 35px;
+
+}
+
+
+.imageprojheight{
+  height: 350px;
+}
+
+.projectcardheight{
+  height: 550px;
+}
+
+
+
+
+.contacticons{
+  height: 150px;
+  width: 150px;
+}
+
+
+
+/*Desktop styles*/
+@media only screen and (min-width: 961px)
+{
+.skillspecific{
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) 
+{
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.skillspecific{
+  transform: rotate(-45deg);
+  margin-left: 55px
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/*Tablet Styles*/
+@media only screen and (min-width: 321px) and (max-width: 768px)
+ {
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
