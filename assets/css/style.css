@@ -90,6 +90,10 @@
   width: 150px;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 
 /*Desktop styles*/
@@ -126,11 +130,6 @@
 {
 
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 
 
 .skillspecific{
@@ -160,13 +159,6 @@ html, body {
 /*Tablet Styles*/
 @media only screen and (min-width: 321px) and (max-width: 768px)
  {
-
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 
 
 
